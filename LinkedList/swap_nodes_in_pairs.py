@@ -36,6 +36,16 @@ class LinkedList:
         dummy = Node(0)
         dummy.next = self.head
         prev = dummy
+        #technique 1 ( reused reverse between code)
+        # curr = self.head
+        # while curr and curr.next:
+        #         node_to_move = curr.next
+        #         curr.next = node_to_move.next
+        #         node_to_move.next = prev.next
+        #         prev.next = node_to_move
+        #         prev =  curr
+        #         curr = curr.next
+        #technique 2 
         first = self.head
         while first and first.next:
             second = first.next
