@@ -146,17 +146,17 @@ class LinkedList:
 
 my_linked_list = LinkedList(4)
 
-my_linked_list.append(2)
+# my_linked_list.append(2)
 
-my_linked_list.append(3)
+# my_linked_list.append(3)
 
-my_linked_list.append(1)
+# my_linked_list.append(1)
 
 #my_linked_list.print_list()
 
 #my_linked_list.print_list()
     
-#print(my_linked_list.pop())
+# print(my_linked_list.pop().value)
 
 #print(my_linked_list.pop_first())
 
@@ -170,7 +170,7 @@ my_linked_list.append(1)
 
 #my_linked_list.remove(1)
 
-my_linked_list.reverse()
+# my_linked_list.reverse()
 
 my_linked_list.print_list()
 
