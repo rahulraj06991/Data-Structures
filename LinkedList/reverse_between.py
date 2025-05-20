@@ -36,10 +36,10 @@ class LinkedList:
         dummy = Node(0)
         dummy.next = self.head
         prev = dummy
-        #curr = self.head
         for i in range (x):
             prev = prev.next
         curr = prev.next
+        #print("curr", curr.value)
         for i in range (y-x):
             node_to_move = curr.next
             curr.next = node_to_move.next
