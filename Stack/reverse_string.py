@@ -49,10 +49,3 @@ def reverse_string(string):
  
 
 print(reverse_string("hello"))
-
-# mystack = Stack()
-# mystack.push("h")
-# mystack.push("e")
-# mystack.push("l")
-
-# mystack.print_stack()
