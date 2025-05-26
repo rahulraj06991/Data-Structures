@@ -33,7 +33,6 @@ print(q.stack2)
 
 print("Front of the queue:", q.peek())
 
-# Check if the queue is empty
 print("Is the queue empty?", q.is_empty())
 
 print(q.dequeue())
